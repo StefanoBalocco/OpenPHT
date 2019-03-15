@@ -1,8 +1,14 @@
-openpht (1.9.0.60b75e1-1~bionic2) bionic; urgency=medium
+openpht (1.9.0.60b75e1-1~cosmic2) cosmic; urgency=medium
 
   * Fixed rules
 
- -- Stefano Balocco <Stefano.Balocco@gmail.com>  Thu, 14 Mar 2019 21:06:22 +0100
+ -- Stefano Balocco <Stefano.Balocco@gmail.com>  Thu, 14 Mar 2019 21:10:39 +0100
+
+openpht (1.9.0.60b75e1-1~cosmic1) cosmic; urgency=medium
+
+  * Ported to cosmic
+
+ -- Stefano Balocco <Stefano.Balocco@gmail.com>  Wed, 13 Mar 2019 22:09:49 +0100
 
 openpht (1.9.0.60b75e1-1~bionic1) bionic; urgency=low
 

@@ -1,0 +1,14 @@
+--- openpht-1.9.0.60b75e1.orig/xbmc/cores/DllLoader/exports/wrapper.c
++++ openpht-1.9.0.60b75e1/xbmc/cores/DllLoader/exports/wrapper.c
+@@ -45,9 +45,9 @@ typedef int64_t   off64_t;
+ typedef off64_t   __off64_t;
+ typedef fpos_t    fpos64_t;
+ #define stat64    stat
+-#if defined(TARGET_DARWIN) || defined(TARGET_ANDROID)
+-#define _G_va_list va_list
+ #endif
++#if defined(TARGET_DARWIN) || defined(__ANDROID__) || defined(_LINUX)
++#define _G_va_list va_list
+ #endif
+ 
+ #ifdef _LINUX
