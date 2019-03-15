@@ -2,6 +2,11 @@
 ! Note that this is the Plex Home Theater tree of XBMC !
 ----------
 
+----------
+! This is a fork with the necessary files to create an Ubuntu package !
+! The packages con be found on my multimedia repo: https://launchpad.net/~stefanobalocco/+archive/ubuntu/multimedia/ !
+----------
+
 About
 -----
 XBMC is an award-winning free and open source (GPL) software media player and
