@@ -1,0 +1,78 @@
+Source: openpht
+Section: video
+Priority: optional
+Maintainer: Stefano Balocco <stefano.balocco@gmail.com>
+Build-Depends: debhelper (>= 10~),
+ cmake,
+ zip,
+ libtool,
+ libice-dev,
+ libxres-dev,
+ libxcomposite-dev,
+ libxinerama-dev,
+ libxv-dev,
+ libxi-dev,
+ libxcursor-dev,
+ libsm-dev,
+ libsqlite3-dev,
+ libfribidi-dev,
+ libboost1.65-all-dev,
+ libcurl4-gnutls-dev | libcurl-dev,
+ libpng12-dev | libpng-dev,
+ libtiff-dev,
+ libvorbis-dev,
+ libogg-dev,
+ libmpeg2-4-dev,
+ libass-dev (>= 0.9.8),
+ librtmp-dev,
+ libplist-dev,
+ libshairplay-dev,
+ libva-dev [!armel !armhf !mipsel !mips],
+ libvdpau-dev [!armel !armhf !mipsel !mips],
+ libcec-dev,
+ libp8-platform-dev,
+ libpulse-dev,
+ libasound2-dev | libasound-dev,
+ libusb-dev, 
+ libudev-dev,
+ libxrandr-dev,
+ libexpat1-dev,
+ libcdio-dev,
+ libsdl-dev,
+ libsdl-image1.2-dev,
+ liblzo2-dev,
+ libfontconfig-dev,
+ libfreetype6-dev,
+ libyajl-dev,
+ libmicrohttpd-dev,
+ libssl1.0-dev,
+ libtinyxml-dev,
+ librapidxml-dev,
+ libgles2-mesa-dev [armel armhf] | libgl1-mesa-dev | libgl-dev,
+ libglu1-mesa-dev | libglu-dev,
+ libftgl-dev,
+ libglew-dev,
+ libavahi-client-dev,
+ libflac-dev,
+ nasm [i386],
+ yasm,
+ libmodplug-dev,
+ libiso9660-dev,
+ libnfs-dev
+# libavcodec-dev (>= 7:2.7.1),
+# libavfilter-dev (>= 7:2.7.1),
+# libavformat-dev (>= 7:2.7.1),
+# libavutil-dev (>= 7:2.7.1),
+# libpostproc-dev (>= 7:2.7.1),
+# libswscale-dev (>= 7:2.7.1),
+# libavdevice-dev (>= 7:2.7.1),
+# libavresample-dev (>= 7:2.7.1),
+Standards-Version: 3.9.5
+Homepage: https://github.com/RasPlex/OpenPHT
+
+Package: openpht
+Architecture: any
+Depends: ${shlibs:Depends}, ${dlopenlibs:Depends}, ${misc:Depends}
+Description: OpenPHT Media Center
+ .
+
