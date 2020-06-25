@@ -1,3 +1,11 @@
+openpht (1.9.0.20200314-1~focal1) focal; urgency=medium
+
+  * Version bump
+  * Ported to focal
+  * Removed useless patches
+
+ -- Stefano Balocco <Stefano.Balocco@gmail.com>  Thu, 25 Jun 2020 13:21:14 +0200
+
 openpht (1.9.0.60b75e1-1~cosmic2) cosmic; urgency=medium
 
   * Fixed rules
