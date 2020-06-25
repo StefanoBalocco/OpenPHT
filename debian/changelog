@@ -1,3 +1,15 @@
+openpht (1.9.0.20200314-1~focal3) focal; urgency=medium
+
+  * Fixed libboost dependency
+
+ -- Stefano Balocco <Stefano.Balocco@gmail.com>  Thu, 25 Jun 2020 14:07:05 +0200
+
+openpht (1.9.0.20200314-1~focal2) focal; urgency=medium
+
+  * Fixed dependencies
+
+ -- Stefano Balocco <Stefano.Balocco@gmail.com>  Thu, 25 Jun 2020 13:32:52 +0200
+
 openpht (1.9.0.20200314-1~focal1) focal; urgency=medium
 
   * Version bump

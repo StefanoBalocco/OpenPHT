@@ -16,7 +16,7 @@ Build-Depends: debhelper (>= 10~),
  libsm-dev,
  libsqlite3-dev,
  libfribidi-dev,
- libboost1.65-all-dev,
+ libboost1.67-all-dev,
  libcurl4-gnutls-dev | libcurl-dev,
  libpng12-dev | libpng-dev,
  libtiff-dev,
@@ -45,7 +45,7 @@ Build-Depends: debhelper (>= 10~),
  libfreetype6-dev,
  libyajl-dev,
  libmicrohttpd-dev,
- libssl1.0-dev,
+ libssl-dev,
  libtinyxml-dev,
  librapidxml-dev,
  libgles2-mesa-dev [armel armhf] | libgl1-mesa-dev | libgl-dev,
@@ -68,7 +68,7 @@ Build-Depends: debhelper (>= 10~),
 # libavdevice-dev (>= 7:2.7.1),
 # libavresample-dev (>= 7:2.7.1),
 Standards-Version: 3.9.5
-Homepage: https://github.com/RasPlex/OpenPHT
+Homepage: https://github.com/StefanoBalocco/OpenPHT
 
 Package: openpht
 Architecture: any
