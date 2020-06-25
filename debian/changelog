@@ -1,3 +1,9 @@
+openpht (1.9.0.20200314-1~bionic1) bionic; urgency=medium
+
+  * Version bump
+
+ -- Stefano Balocco <Stefano.Balocco@gmail.com>  Thu, 25 Jun 2020 13:11:48 +0200
+
 openpht (1.9.0.60b75e1-1~bionic2) bionic; urgency=medium
 
   * Fixed rules
