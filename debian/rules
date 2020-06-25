@@ -21,7 +21,8 @@ override_dh_auto_configure:
 		-DUSE_RAPIDXML=on \
 		-DUSE_INTERNAL_FFMPEG=on \
 		-DCOMPRESS_TEXTURES=on \
-		-DENABLE_AUTOUPDATE=off
+		-DENABLE_AUTOUPDATE=off \
+                -DOpenGL_GL_PREFERENCE=GLVND
 
 override_dh_auto_install:
 	dh_auto_install --destdir=debian/tmp

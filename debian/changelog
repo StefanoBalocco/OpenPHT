@@ -1,3 +1,9 @@
+openpht (1.9.0.20200314-1~focal4) focal; urgency=medium
+
+  * Added libdrm-dev dependency, fixed OpenGL_GL_PREFERENCE
+
+ -- Stefano Balocco <Stefano.Balocco@gmail.com>  Thu, 25 Jun 2020 14:15:25 +0200
+
 openpht (1.9.0.20200314-1~focal3) focal; urgency=medium
 
   * Fixed libboost dependency

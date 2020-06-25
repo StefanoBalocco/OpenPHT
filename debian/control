@@ -58,7 +58,8 @@ Build-Depends: debhelper (>= 10~),
  yasm,
  libmodplug-dev,
  libiso9660-dev,
- libnfs-dev
+ libnfs-dev,
+ libdrm-dev
 # libavcodec-dev (>= 7:2.7.1),
 # libavfilter-dev (>= 7:2.7.1),
 # libavformat-dev (>= 7:2.7.1),
