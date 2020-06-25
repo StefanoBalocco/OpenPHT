@@ -193,8 +193,7 @@ protected:
         if (!m_context) {
             return socket::make_error_code(socket::error::invalid_tls_context);
         }
-        m_socket = lib::make_shared<socket_type>(
-            _WEBSOCKETPP_REF(*service),lib::ref(*m_context));
+        m_socket = lib::make_shared<socket_type>(_WEBSOCKETPP_REF(*service),*m_context);
 
         m_io_service = service;
         m_strand = strand;
@@ -355,13 +354,9 @@ protected:
     template <typename ErrorCodeType>
     lib::error_code translate_ec(ErrorCodeType ec) {
         if (ec.category() == lib::asio::error::get_ssl_category()) {
-            if (ERR_GET_REASON(ec.value()) == SSL_R_SHORT_READ) {
-                return make_error_code(transport::error::tls_short_read);
-            } else {
                 // We know it is a TLS related error, but otherwise don't know
                 // more. Pass through as TLS generic.
                 return make_error_code(transport::error::tls_error);
-            }
         } else {
             // We don't know any more information about this error so pass
             // through
